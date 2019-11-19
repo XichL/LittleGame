@@ -1,0 +1,6 @@
+﻿  AES.cpp
+  MyForm.cpp
+c:\users\nst\documents\visual studio 2017\projects\mindread\mindread\myform.cpp(165): warning C4101: 'fs': 未參考的區域變數
+  正在產生程式碼...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  MindRead.vcxproj -> C:\Users\NST\Documents\Visual Studio 2017\Projects\MindRead\x64\Release\MindRead.exe

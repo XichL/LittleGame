@@ -1,0 +1,37 @@
+  MindRead.MyForm.resources - Embedded, ContainedInManifestFile, 
+  MindRead.Resource.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly MindRead, Version=0.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AES_PROGRESS.AES: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SubBytes(bitset<8>* IsConst IsConst): PrivateScope, Public, HideBySig
+    ShiftRows(bitset<8>* IsConst IsConst): PrivateScope, Public, HideBySig
+    GFMul(bitset<8>*, bitset<8>, bitset<8>): PrivateScope, Public, HideBySig
+    MixColumns(bitset<8>* IsConst IsConst): PrivateScope, Public, HideBySig
+    AddRoundKey(bitset<8>* IsConst IsConst, bitset<32>* IsConst IsConst): PrivateScope, Public, HideBySig
+    InvSubBytes(bitset<8>* IsConst IsConst): PrivateScope, Public, HideBySig
+    InvShiftRows(bitset<8>* IsConst IsConst): PrivateScope, Public, HideBySig
+    InvMixColumns(bitset<8>* IsConst IsConst): PrivateScope, Public, HideBySig
+    Word(bitset<32>*, bitset<8>* IsImplicitlyDereferenced, bitset<8>* IsImplicitlyDereferenced, bitset<8>* IsImplicitlyDereferenced, bitset<8>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    RotWord(bitset<32>*, bitset<32>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SubWord(bitset<32>*, bitset<32>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    KeyExpansion(bitset<8>* IsConst IsConst, bitset<32>* IsConst IsConst): PrivateScope, Public, HideBySig
+    encrypt(bitset<8>* IsConst IsConst, bitset<32>* IsConst IsConst): PrivateScope, Public, HideBySig
+    decrypt(bitset<8>* IsConst IsConst, bitset<32>* IsConst IsConst): PrivateScope, Public, HideBySig
+Class MindRead.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
